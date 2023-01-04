@@ -10,6 +10,7 @@
 
 import UIKit
 
+/// Controller to show various app options and settings
 final class RAMSettingsViewController: UIViewController {
 
     // MARK: - View Life Cycle

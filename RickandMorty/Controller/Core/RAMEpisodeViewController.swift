@@ -10,6 +10,7 @@
 
 import UIKit
 
+/// Controller to show and search for episodes
 final class RAMEpisodeViewController: UIViewController {
 
     // MARK: - View Life Cycle

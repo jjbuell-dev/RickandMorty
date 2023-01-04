@@ -10,6 +10,7 @@
 
 import UIKit
 
+/// Controller to show and search for characters
 final class RAMCharacterViewController: UIViewController {
 
     // MARK: - View Life Cycle

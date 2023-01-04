@@ -19,6 +19,9 @@
 		2C70846E29653FA400894100 /* RAMLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C70846D29653FA400894100 /* RAMLocation.swift */; };
 		2C70847029653FAC00894100 /* RAMCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C70846F29653FAC00894100 /* RAMCharacters.swift */; };
 		2C70847329653FC000894100 /* RAMEpisodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C70847229653FC000894100 /* RAMEpisodes.swift */; };
+		2CFDFE90296546F100D2611F /* RAMNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFDFE8F296546F100D2611F /* RAMNetworkService.swift */; };
+		2CFDFE92296546FE00D2611F /* RAMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFDFE91296546FD00D2611F /* RAMRequest.swift */; };
+		2CFDFE94296547E700D2611F /* RAMEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFDFE93296547E700D2611F /* RAMEndpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		2C70846D29653FA400894100 /* RAMLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMLocation.swift; sourceTree = "<group>"; };
 		2C70846F29653FAC00894100 /* RAMCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMCharacters.swift; sourceTree = "<group>"; };
 		2C70847229653FC000894100 /* RAMEpisodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMEpisodes.swift; sourceTree = "<group>"; };
+		2CFDFE8F296546F100D2611F /* RAMNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMNetworkService.swift; sourceTree = "<group>"; };
+		2CFDFE91296546FD00D2611F /* RAMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMRequest.swift; sourceTree = "<group>"; };
+		2CFDFE93296547E700D2611F /* RAMEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMEndpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +151,9 @@
 		2C70846929653F0500894100 /* APIClient */ = {
 			isa = PBXGroup;
 			children = (
+				2CFDFE8F296546F100D2611F /* RAMNetworkService.swift */,
+				2CFDFE91296546FD00D2611F /* RAMRequest.swift */,
+				2CFDFE93296547E700D2611F /* RAMEndpoint.swift */,
 			);
 			path = APIClient;
 			sourceTree = "<group>";
@@ -223,10 +232,13 @@
 				2C42C6FD2965405E008B6BD7 /* RAMCharacterViewController.swift in Sources */,
 				2C42C6FF29654068008B6BD7 /* RAMLocationViewController.swift in Sources */,
 				2C42C6FA29654007008B6BD7 /* RAMTabBarController.swift in Sources */,
+				2CFDFE92296546FE00D2611F /* RAMRequest.swift in Sources */,
 				2C42C70329654092008B6BD7 /* RAMSettingsViewController.swift in Sources */,
 				2C70846E29653FA400894100 /* RAMLocation.swift in Sources */,
+				2CFDFE90296546F100D2611F /* RAMNetworkService.swift in Sources */,
 				2C70847029653FAC00894100 /* RAMCharacters.swift in Sources */,
 				2C70845029653D5E00894100 /* AppDelegate.swift in Sources */,
+				2CFDFE94296547E700D2611F /* RAMEndpoint.swift in Sources */,
 				2C70845229653D5E00894100 /* SceneDelegate.swift in Sources */,
 				2C42C70129654083008B6BD7 /* RAMEpisodeViewController.swift in Sources */,
 			);

@@ -10,6 +10,7 @@
 
 import UIKit
 
+/// Controller to house tabs and rootTabControllers
 final class RAMTabBarController: UITabBarController {
 
     // MARK: - View Life Cycle

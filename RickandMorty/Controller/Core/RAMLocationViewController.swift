@@ -10,6 +10,7 @@
 
 import UIKit
 
+/// Controller to show and search for locations
 final class RAMLocationViewController: UIViewController {
 
     // MARK: - View Life Cycle
