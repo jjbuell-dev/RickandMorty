@@ -17,11 +17,15 @@
 		2C70845929653D5F00894100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C70845829653D5F00894100 /* Assets.xcassets */; };
 		2C70845C29653D5F00894100 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C70845A29653D5F00894100 /* LaunchScreen.storyboard */; };
 		2C70846E29653FA400894100 /* RAMLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C70846D29653FA400894100 /* RAMLocation.swift */; };
-		2C70847029653FAC00894100 /* RAMCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C70846F29653FAC00894100 /* RAMCharacters.swift */; };
-		2C70847329653FC000894100 /* RAMEpisodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C70847229653FC000894100 /* RAMEpisodes.swift */; };
+		2C70847029653FAC00894100 /* RAMCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C70846F29653FAC00894100 /* RAMCharacter.swift */; };
+		2C70847329653FC000894100 /* RAMEpisode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C70847229653FC000894100 /* RAMEpisode.swift */; };
 		2CFDFE90296546F100D2611F /* RAMNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFDFE8F296546F100D2611F /* RAMNetworkService.swift */; };
 		2CFDFE92296546FE00D2611F /* RAMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFDFE91296546FD00D2611F /* RAMRequest.swift */; };
 		2CFDFE94296547E700D2611F /* RAMEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFDFE93296547E700D2611F /* RAMEndpoint.swift */; };
+		2CFDFE9629654CC000D2611F /* RAMOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFDFE9529654CC000D2611F /* RAMOrigin.swift */; };
+		2CFDFE9829654D2300D2611F /* RAMSingleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFDFE9729654D2300D2611F /* RAMSingleLocation.swift */; };
+		2CFDFE9A29654E2200D2611F /* RAMCharacterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFDFE9929654E2200D2611F /* RAMCharacterStatus.swift */; };
+		2CFDFE9C29654E3E00D2611F /* RAMCharacterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFDFE9B29654E3E00D2611F /* RAMCharacterGender.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,11 +41,15 @@
 		2C70845B29653D5F00894100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C70845D29653D5F00894100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C70846D29653FA400894100 /* RAMLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMLocation.swift; sourceTree = "<group>"; };
-		2C70846F29653FAC00894100 /* RAMCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMCharacters.swift; sourceTree = "<group>"; };
-		2C70847229653FC000894100 /* RAMEpisodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMEpisodes.swift; sourceTree = "<group>"; };
+		2C70846F29653FAC00894100 /* RAMCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMCharacter.swift; sourceTree = "<group>"; };
+		2C70847229653FC000894100 /* RAMEpisode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMEpisode.swift; sourceTree = "<group>"; };
 		2CFDFE8F296546F100D2611F /* RAMNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMNetworkService.swift; sourceTree = "<group>"; };
 		2CFDFE91296546FD00D2611F /* RAMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMRequest.swift; sourceTree = "<group>"; };
 		2CFDFE93296547E700D2611F /* RAMEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMEndpoint.swift; sourceTree = "<group>"; };
+		2CFDFE9529654CC000D2611F /* RAMOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMOrigin.swift; sourceTree = "<group>"; };
+		2CFDFE9729654D2300D2611F /* RAMSingleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMSingleLocation.swift; sourceTree = "<group>"; };
+		2CFDFE9929654E2200D2611F /* RAMCharacterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMCharacterStatus.swift; sourceTree = "<group>"; };
+		2CFDFE9B29654E3E00D2611F /* RAMCharacterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMCharacterGender.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,9 +135,13 @@
 		2C70846629653EE300894100 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				2C70846F29653FAC00894100 /* RAMCharacters.swift */,
+				2C70846F29653FAC00894100 /* RAMCharacter.swift */,
 				2C70846D29653FA400894100 /* RAMLocation.swift */,
-				2C70847229653FC000894100 /* RAMEpisodes.swift */,
+				2C70847229653FC000894100 /* RAMEpisode.swift */,
+				2CFDFE9529654CC000D2611F /* RAMOrigin.swift */,
+				2CFDFE9729654D2300D2611F /* RAMSingleLocation.swift */,
+				2CFDFE9929654E2200D2611F /* RAMCharacterStatus.swift */,
+				2CFDFE9B29654E3E00D2611F /* RAMCharacterGender.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -228,18 +240,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C70847329653FC000894100 /* RAMEpisodes.swift in Sources */,
+				2C70847329653FC000894100 /* RAMEpisode.swift in Sources */,
 				2C42C6FD2965405E008B6BD7 /* RAMCharacterViewController.swift in Sources */,
 				2C42C6FF29654068008B6BD7 /* RAMLocationViewController.swift in Sources */,
 				2C42C6FA29654007008B6BD7 /* RAMTabBarController.swift in Sources */,
+				2CFDFE9A29654E2200D2611F /* RAMCharacterStatus.swift in Sources */,
 				2CFDFE92296546FE00D2611F /* RAMRequest.swift in Sources */,
 				2C42C70329654092008B6BD7 /* RAMSettingsViewController.swift in Sources */,
+				2CFDFE9C29654E3E00D2611F /* RAMCharacterGender.swift in Sources */,
 				2C70846E29653FA400894100 /* RAMLocation.swift in Sources */,
+				2CFDFE9829654D2300D2611F /* RAMSingleLocation.swift in Sources */,
 				2CFDFE90296546F100D2611F /* RAMNetworkService.swift in Sources */,
-				2C70847029653FAC00894100 /* RAMCharacters.swift in Sources */,
+				2C70847029653FAC00894100 /* RAMCharacter.swift in Sources */,
 				2C70845029653D5E00894100 /* AppDelegate.swift in Sources */,
 				2CFDFE94296547E700D2611F /* RAMEndpoint.swift in Sources */,
 				2C70845229653D5E00894100 /* SceneDelegate.swift in Sources */,
+				2CFDFE9629654CC000D2611F /* RAMOrigin.swift in Sources */,
 				2C42C70129654083008B6BD7 /* RAMEpisodeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
