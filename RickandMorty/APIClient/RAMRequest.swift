@@ -26,7 +26,7 @@ final class RAMRequest {
     }
     
     private let endpoint: RAMEndpoint
-    private let pathComponents: Set<String>
+    private let pathComponents: [String]
     private let queryParameters: [URLQueryItem]
     private var urlString: String {
         var urlString = Constants.baseUrl
@@ -59,10 +59,16 @@ final class RAMRequest {
     
     // MARK: - Initializers
     
-    public init(endpoint: RAMEndpoint, pathComponents: Set<String> = [], queryParameters: [URLQueryItem] = []) {
+    public init(endpoint: RAMEndpoint, pathComponents: [String] = [], queryParameters: [URLQueryItem] = []) {
         self.endpoint = endpoint
         self.pathComponents = pathComponents
         self.queryParameters = queryParameters
     }
     
+}
+
+// MARK: - Extension
+
+extension RAMRequest {
+    static let listCharactersRequest = RAMRequest(endpoint: .character)
 }
